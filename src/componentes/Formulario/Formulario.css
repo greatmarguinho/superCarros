@@ -1,0 +1,10 @@
+.formulario {
+    display: flex;
+    justify-content: left;
+}
+
+.formulario form {
+    max-width: 80%;
+    border-radius: 20px;
+    padding: 36px 64px;
+}
