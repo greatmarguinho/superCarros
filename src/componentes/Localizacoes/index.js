@@ -5,7 +5,7 @@ function Localizacoes() {
         <section className={styles.localizacoes}>
             <h1>SUPER CARROS</h1>
 
-            <p>A atua no mercado automobilistico, caracterizada por ser<br></br> uma empresa sólida,
+            <p>  A <span className={styles.superCarros}>Super Carros</span> atua no mercado automobilistico, caracterizada por ser<br></br> uma empresa sólida,
                  de tradição, que conjuga excelência no<br></br> atendimento e veículos com rigorosa qualidade,
                  com o objetivo único<br></br> de tornar real o sonho de cada cliente.</p>
 
