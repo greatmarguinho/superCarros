@@ -8,6 +8,7 @@
     margin: 32px 0;
     font-family: 'JetBrains Mono';
     font-style: normal; 
+    border-style: none;
 }
 
 .botao:hover {

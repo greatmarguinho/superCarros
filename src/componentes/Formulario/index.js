@@ -19,9 +19,11 @@ const Formulario = () => {
                 <CampoTexto obrigatorio={true} label="Cor:" placeholder="Digite a cor" />
                 <CampoTexto obrigatorio={true} label="Valor Pago:" placeholder="Digite o valor pago" />
                 <CampoTexto obrigatorio={true} label="Valor Venda:" placeholder="Digite o valor de venda" />
+                <div className="Botao-Container">
                 <Botao>
                     Inserir
                 </Botao>
+                </div>
             </form>
         </section>
     )

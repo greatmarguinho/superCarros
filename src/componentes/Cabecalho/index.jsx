@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from './logo.svg'
+import logo from './logo.svg';
 import styles from './Cabecalho.module.css';
 import CabecalhoLink from '../CabecalhoLInk';
 
@@ -9,7 +9,7 @@ function Cabecalho() {
             <Link to="./">
                 <img src={logo} alt="Logo do supercarros"></img>
             </Link>
-            <nav>
+            <nav className={styles.containerNav}>
                 <CabecalhoLink url="./Estoque">
                     Estoque
                 </CabecalhoLink>

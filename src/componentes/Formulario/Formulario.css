@@ -5,7 +5,12 @@
 }
 
 .formulario form {
-    max-width: 80%;
     border-radius: 20px;
     padding: 36px 64px;
+}
+
+.Botao-Container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
